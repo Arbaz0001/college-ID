@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identity Card</title>
+    <style>
+      .container {
+        border: 2px solid black;
+        width: 260px;
+        border-radius: 7px;
+      }
+      
+      .first-box img {
+        width: 50px;
+        padding: 2px;
+      }
+      .heading {
+        font-size: 11px;
+        position: absolute;
+        top: 8px;
+        left: 65px;
+        background-color: blue;
+        border-top-right-radius: 5px;
+        color: white;
+        height: 53px;
+        width: 205px;
+        margin-top: 2px;
+      }
+      .heading div:nth-child(1){
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .heading div:nth-child(2){
+        margin-top: 9px;
+        margin-left: 5px;
+      }
+      .session {
+        margin-left: 65px;
+        line-height: 11px;
+        color: rgb(253, 67, 67);
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .second-box{
+        background-image: url("https://www.uniraj.ac.in/gal_main/DSC_0044.jpg");
+        width: 260px;
+        height: 220px;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.2;
+        margin-top: 5px;
+      }
+      .content{
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .content div:nth-child(7){
+        font-size: 12px;
+      }
+      .content div:nth-child(8){
+        margin-left: 170px;
+        margin-top:-59px;
+      }
+      .content div:nth-child(9){
+        margin-left: 170px;
+        margin-top: 3px;
+      }
+      .bar-code img{
+        margin-top: 3px;
+        margin-left: 4px;
+      }
+      .last{
+        margin-left: 35px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-box">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBiNvkyPJnZOghYAg3bW8LZ3fvdnwn6oGbg&s" alt="college logo"
+        />
+        <span class="heading">
+          <div>UNIVERSITY MAHARAJA COLLEGE</div>
+          <div>UNIVERSITY OF RAJASTHAN, JAIPUR</div>
+        </span>
+      </div>
+      <div class="session">Academic Session-2024-2025</div>
+      <div class="second-box"></div>
+      <span class="content">
+        <div>User Id No.: xxxxxx</div>
+        <div>Section :</div>
+        <div>Class : B.C.A. PART-III</div>
+        <div>Father: xxxxxxxxxxxxxxxxxx</div>
+        <div>DOB : xxxx</div>
+        <div>Contact No.: xxxxxxxx123</div>
+        <div><a href="xyz.com">Address :</a> <br>AU Ignite Skills Academy <br>Gopalpura, Jaipur <br>302012</div>
+        <div><img src="https://static.vecteezy.com/system/resources/thumbnails/000/439/863/small/Basic_Ui__28186_29.jpg" width="70px" height="80px" alt=""></div>
+        <div><img src="https://signature.freefire-name.com/img.php?f=2&t=%20Aryan" width="70px" height="15px" alt=""></div>
+      </span>
+      <span class="bar-code"><img src="https://www.shutterstock.com/image-vector/long-bar-code-600nw-1043015362.jpg" width="150px" height="20px" alt=""></span>
+      <span class="last">Principal</span>
+    </div>
+  </body>
+</html>
